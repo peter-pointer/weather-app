@@ -2,7 +2,7 @@ const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
 const API_URL = import.meta.env.VITE_WEATHER_API_URL || 'https://api.openweathermap.org/data/2.5'
 
 if (!API_KEY) {
-  console.warn('Falta VITE_WEATHER_API_KEY en .env.local')
+  console.warn('Falta VITE_OPENWEATHER_API_KEY en el .env')
 }
 
 export async function fetchWeatherByCity(city) {

@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Weather App</h1>
+      <h1>My Weather App</h1>
 
       <form onSubmit={handleSubmit} className="search-form">
         <input
